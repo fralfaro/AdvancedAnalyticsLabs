@@ -37,7 +37,7 @@ extra_javascript:
 theme:
   name: material
   language: es
-  logo: images/logo.png
+  logo: images/logo.bmp
   favicon: images/logo_python.svg
   features:
     - navigation.instant
