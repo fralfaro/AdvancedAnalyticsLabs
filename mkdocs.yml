@@ -1,0 +1,114 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Project information
+site_name: Home
+site_url: https://github.com/fralfaro/AdvancedAnalyticsLabs
+site_author: Francisco Alfaro
+site_description:
+
+# Repository
+repo_name: CBravoR/AdvancedAnalyticsLabs
+repo_url: https://github.com/CBravoR/AdvancedAnalyticsLabs
+edit_uri: ''
+
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tabbed
+
+# Extra javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Theme
+theme:
+  name: material
+  language: es
+  logo: images/logo.png
+  favicon: images/logo_python.svg
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  palette:
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: deep purple
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CBravoR
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/cristianbravor/
+    - icon: fontawesome/solid/globe
+      link: https://www.uwo.ca/stats/people/bios/cristin_bravo_roman.html
+
+#extra_css:
+#  - assets/css/extra.css
+
+  # Plugins
+plugins:
+  - mkdocs-jupyter:
+      kernel_name: python3
+  - search
+
+# TOC
+nav:
+    - Home: index.md
+    - Intro to Python:
+        - notebooks/python/Lab_1_Introduction_to_Python.ipynb
+        - notebooks/python/Lab_2_Revenue_Management.ipynb
+    - Banking Regulation:
+        - notebooks/python/Lab_2_Capital_Requirements_and_Pandas.ipynb
+        - notebooks/python/Lab_3_Bond_Pricing.ipynb
+    - Credit Risk Modelling:
+        - notebooks/python/Lab_4_Preprocessing.ipynb
+        - notebooks/python/Lab_5_WoE.ipynb
+        - notebooks/python/Lab_6_Logistic_Regression_and_Scorecards.ipynb
+        - notebooks/python/Lab_7_Ensembles_and_Error_Measures.ipynb
+        - notebooks/python/Lab_LGD_Modelling.ipynb
+        - notebooks/python/Lab_PD_Calibration.ipynb
+    - Deep Learning:
+        - notebooks/python/Lab_8_Keras_and_Shallow_Neural_Networks.ipynb
+        - notebooks/python/Lab_8_Embeddings.ipynb
+        - notebooks/python/Lab_9_ConvNets_for_Text_Analytics.ipynb
+        - notebooks/python/Lab_2D_Convolutions.ipynb
+        - notebooks/python/Multimodal_Learning_House_Prices.ipynb
+        - notebooks/python/Airlines.ipynb
+    - Other labs:
+        - notebooks/python/Lab_11_SQL_Connections.ipynb
+        - notebooks/python/Lab_12_Visualization_Primer.ipynb
+        - notebooks/python/Lab_Explainability_and_SHAP.ipynb
+
+
+
