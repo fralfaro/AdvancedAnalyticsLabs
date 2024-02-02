@@ -1,5 +1,13 @@
 # AdvancedAnalyticsLabs
+
+![example workflow](https://github.com/fralfaro/AdvancedAnalyticsLabs/actions/workflows/documentation.yml/badge.svg)
+<a href="https://fralfaro.github.io/AdvancedAnalyticsLabs/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
+
 Analytics labs notebooks, supporting analytics teaching for BSc and MSc courses. I've taught these at a business school and a statistics department, so I think they fit both reasonably well. Currently, there are 19 labs uploaded divided into five topics:
+
+> **Note**: this repository is an alternative to the official [AdvancedAnalyticsLabs](https://github.com/CBravoR/AdvancedAnalyticsLabs) documentation.
+
+
 
 ## Intro to Python
 

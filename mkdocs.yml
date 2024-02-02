@@ -72,6 +72,8 @@ extra:
       link: https://www.linkedin.com/in/cristianbravor/
     - icon: fontawesome/solid/globe
       link: https://www.uwo.ca/stats/people/bios/cristin_bravo_roman.html
+    - icon: fontawesome/solid/blog
+      link: https://thebal.ai/
 
 #extra_css:
 #  - assets/css/extra.css
